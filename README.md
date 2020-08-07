@@ -3,7 +3,10 @@
 ## Notes
 
 This Dockerfile is **unoptimized for size** - you might not want to run this in production!!!
-Juroku's original repo is at https://github.com/tmpim/juroku
+
+The image contains everything that is required for Juroku to run.
+
+Juroku's original repo is located at https://github.com/tmpim/juroku
 
 ## Server instructions
 
