@@ -3,6 +3,7 @@
 ## Notes
 
 This Dockerfile is **unoptimized for size** - you might not want to run this in production!!!
+Juroku's original repo is at https://github.com/tmpim/juroku
 
 ## Server instructions
 
