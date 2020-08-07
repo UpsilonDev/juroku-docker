@@ -2,9 +2,7 @@
 
 ## Notes
 
-This Dockerfile is **unoptimized for size** - you might not want to run this in production!!!
-
-The image contains everything that is required for Juroku to run.
+This Dockerfile is **unoptimized for size** - you might not want to run this in production!!! It contains everything that is required for Juroku to run.
 
 Juroku's original repo is located at https://github.com/tmpim/juroku
 
@@ -12,7 +10,7 @@ Juroku's original repo is located at https://github.com/tmpim/juroku
 
 ```sh
 docker pull upsilondev/juroku-server
-docker run -d -p 9999:9999 upsilondev/jurokuserver
+docker run -d -p 9999:9999 upsilondev/juroku-server
 ```
 
 ## ComputerCraft dependencies
