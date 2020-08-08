@@ -17,4 +17,4 @@ docker run -d -p 9999:9999 upsilondev/juroku-server
 
 - [jurokunext.lua](https://gist.github.com/1lann/42bc03fca89c980917f9bb74152f57fa)
 - [video.lua](https://gist.github.com/1lann/87b7610d32131a14ee2c5c047d26a7ce)
-- [audio.lua](https://gist.github.com/1lann/87b7610d32131a14ee2c5c047d26a7ce)
+- [audio.lua](https://gist.github.com/1lann/9a92aaf5c4cfee5a1e6bbd42a0092d68)
