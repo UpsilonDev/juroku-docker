@@ -1,8 +1,8 @@
-# Juroku Next Docker Image - DO NOT USE IN PRODUCTION
+# Juroku Next Docker Image
 
 ## Notes
 
-This Dockerfile is **unoptimized for size** - you might not want to run this in production!!! It contains everything that is required for Juroku to run.
+This Dockerfile contains everything that is required for Juroku to run. Based on Alpine Linux.
 
 Juroku's original repo is located at https://github.com/tmpim/juroku
 
