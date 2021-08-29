@@ -11,10 +11,12 @@ FROM alpine:3.12
 WORKDIR /usr/bin/
 
 COPY --from=build /tmp/build/juroku/stream/server/juroku-server /usr/bin
-RUN apk add libgomp ffmpeg python3 py3-pip \
-    && pip install -U youtube-dl \
+RUN apk add libgomp ffmpeg python3 py3-pip g++ \
+    && pip install -U yt-dlp \
     && addgroup -g 1000 -S juroku \
-    && adduser -u 1000 -S juroku -G juroku
+    && adduser -u 1000 -S juroku -G juroku \
+    && ln -s /usr/bin/yt-dlp /usr/bin/youtube-dl \
+    && apk del g++
 
 EXPOSE 9999
 USER juroku
