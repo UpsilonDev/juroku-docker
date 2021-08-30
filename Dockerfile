@@ -2,7 +2,7 @@
 FROM upsilondev/golang-gcc:latest AS build
 
 RUN apk add upx && mkdir -p /tmp/build/juroku && cd /tmp/build/juroku \
-    && git clone -b next https://github.com/tmpim/juroku /tmp/build/juroku \
+    && git clone -b switchcraft https://github.com/tmpim/juroku /tmp/build/juroku \
     && cd stream/server && CGO_CFLAGS_ALLOW='.*' CGO_LDFLAGS_ALLOW='.*' CC='gcc' \
     go build -ldflags="-s -w" && upx server && mv server juroku-server
 
